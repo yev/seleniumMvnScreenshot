@@ -3,6 +3,7 @@ Allow your selenium suites to store automatically screenshots taken for every fa
 
 ## Usage
 1. Just add *FailTestScreenshotListener* to your TestNG class
+![listener example](https://raw.githubusercontent.com/yev/seleniumMvnScreenshot/master/docs/ListenerExample.png)
 2. The plugin will find by reflection the webDriver instance you are using and will do the rest for you.
 
 ## Results
