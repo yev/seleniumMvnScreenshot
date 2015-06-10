@@ -8,3 +8,5 @@ Allow your selenium suites to store automatically screenshots taken for every fa
 
 ## Results
 
+![maven target dir example](https://raw.githubusercontent.com/yev/seleniumMvnScreenshot/master/docs/mvnTargerFolder.png)
+
