@@ -12,6 +12,6 @@ After running your testNg selenium tests with maven, you will find for each fail
 
 ## Integration with Jenkins build
 It's very useful to get the screenshot of failed test directly within the email alert sent by Jenkins when build becomes unstable.
-
+![jenkins conf example](https://raw.githubusercontent.com/yev/seleniumMvnScreenshot/master/docs/selenium_Config_Jenkins_.png)
 My 
 
