@@ -3,10 +3,23 @@ Allow your selenium suites to store automatically screenshots taken for every fa
 
 ## Usage
 
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+```xml
+  <dependencies>
+
+    <dependency>
+      ...
+    </dependency>
+
+    <dependency>
+      ...
+    </dependency>
+
+    <dependency>
+      <groupId>com.github.yev</groupId>
+      <artifactId>screenshot</artifactId>
+      <version>0.2-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
 ```
 
 1. Just add *FailTestScreenshotListener* to your TestNG class
