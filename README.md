@@ -9,7 +9,7 @@ Allow your selenium suites to store automatically screenshots taken for every fa
     <dependency>
       <groupId>com.github.yev</groupId>
       <artifactId>screenshot</artifactId>
-      <version>0.2-SNAPSHOT</version>
+      <version>0.2</version>
     </dependency>
     ```
     
