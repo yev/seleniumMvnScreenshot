@@ -3,7 +3,7 @@ Allow your selenium suites to store automatically screenshots taken for every fa
 
 ## Usage
 
-1. Add the following maven dependency:
+1. Add the following maven dependency in you ```pom.xml``` file:
 ```xml
   <dependencies>
     <dependency>
@@ -12,8 +12,7 @@ Allow your selenium suites to store automatically screenshots taken for every fa
       <version>0.2-SNAPSHOT</version>
     </dependency>
   </dependencies>
-```
-2. Just add ```java @Listeners(FailTestScreenshotListener.class)``` to your TestNG Selenium class
+```2. Just add ```@org.testng.annotations.Listeners(FailTestScreenshotListener.class)``` to your TestNG Selenium class
 ![listener example](https://raw.githubusercontent.com/yev/seleniumMvnScreenshot/master/docs/ListenerExample.png)
 3. The plugin will find by reflection the webDriver instance you are using and will do the rest for you.
 
