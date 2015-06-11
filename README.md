@@ -3,7 +3,8 @@ Allow your selenium suites to store automatically screenshots taken for every fa
 
 ## Usage
 
-1. Add the following maven dependency in you ```pom.xml``` file:```xml
+1. Add the following maven dependency in you ```pom.xml``` file:
+```xml
   <dependencies>
     <dependency>
       <groupId>com.github.yev</groupId>
