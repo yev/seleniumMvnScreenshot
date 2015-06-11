@@ -5,13 +5,11 @@ Allow your selenium suites to store automatically screenshots taken for every fa
 
 1. Add the following maven dependency in you ```pom.xml``` file:
 
-    ```xml
-    <dependency>
+    ```xml <dependency>
       <groupId>com.github.yev</groupId>
       <artifactId>screenshot</artifactId>
       <version>0.2-SNAPSHOT</version>
-    </dependency>
-    ```
+    </dependency>```
     
 2. Add this annotation ```@org.testng.annotations.Listeners(FailTestScreenshotListener.class)``` to your TestNG Selenium class:
 
