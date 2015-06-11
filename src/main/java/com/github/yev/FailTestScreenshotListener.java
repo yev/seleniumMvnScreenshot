@@ -82,7 +82,7 @@ public class FailTestScreenshotListener<T> extends TestListenerAdapter {
       if (eachMethod.getReturnType()== WebDriver.class){
         try {
           webDriver = (WebDriver) eachMethod.invoke(tr.getInstance());
-        } catch (IllegalAccessException | InvocationTargetException e) {
+        } catch (Exception e) {
           System.err.println(String.format("error accessing [%s] method of the [%s] instance", eachMethod.getName(), tr.getClass().getName()));
           return null;
         }
