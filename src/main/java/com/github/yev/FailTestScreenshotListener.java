@@ -1,4 +1,4 @@
-package org.yev.selenium.testng;
+package com.github.yev;
 
 import java.io.File;
 import java.io.IOException;
