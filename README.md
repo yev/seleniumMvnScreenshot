@@ -13,7 +13,10 @@ Allow your selenium suites to store automatically screenshots taken for every fa
     </dependency>
     ```
     
-2. Add this annotation ```java @org.testng.annotations.Listeners(FailTestScreenshotListener.class)``` to your TestNG Selenium class:
+2. Add this annotation 
+   ```java  
+      @org.testng.annotations.Listeners(FailTestScreenshotListener.class)
+   ``` to your TestNG Selenium class:
 
     ![listener example](https://raw.githubusercontent.com/yev/seleniumMvnScreenshot/master/docs/ListenerExample.png)
     
