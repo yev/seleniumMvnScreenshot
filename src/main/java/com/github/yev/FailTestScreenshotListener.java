@@ -3,7 +3,6 @@ package com.github.yev;
 import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Field;
-import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -22,6 +21,7 @@ import org.testng.TestListenerAdapter;
  * TestNg listeners which is responsible to make call the Selenium Screenshot API and store the images in
  * target directory of current maven project.
  * Next, those images can be used after by jenkins job to send then as attachments in email notification.
+ * TODO: we print error messages to system.err, for don't importing any log dependency. Find out more elegant way
  * User: yev
  * Date: 6/7/15
  * Time: 21:33
@@ -48,10 +48,8 @@ public class FailTestScreenshotListener<T> extends TestListenerAdapter {
       return;
     }
 
-
     File f = ((TakesScreenshot)webDriver).getScreenshotAs(OutputType.FILE);
     try {
-
       final long timestamp = new Date().getTime();
       Path screenshotPath = Paths.get(currentDir, "target", "screenshot_" + tr.getMethod().getMethodName() + "_"+ timestamp+".png");
       System.out.println("copying "+screenshotPath);
