@@ -2,6 +2,13 @@
 Allow your selenium suites to store automatically screenshots taken for every failed test in maven target folder for further usage. For example, you can include the screenshot of a failed test in email sent by your CI-build.
 
 ## Usage
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
 1. Just add *FailTestScreenshotListener* to your TestNG class
 ![listener example](https://raw.githubusercontent.com/yev/seleniumMvnScreenshot/master/docs/ListenerExample.png)
 2. The plugin will find by reflection the webDriver instance you are using and will do the rest for you.
