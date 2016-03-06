@@ -13,7 +13,7 @@ Allow your **Selenium** suites to store automatically **screenshots** taken for 
     </dependency>
     ```
     
-2. Add this annotation ```@org.testng.annotations.Listeners(FailTestScreenshotListener.class)``` to your TestNG Selenium class:
+2. Add this annotation ```@org.testng.annotations.Listeners(org.yev.selenium.testng.FailTestScreenshotListener.class)``` to your TestNG Selenium class:
 
     ![listener example](https://raw.githubusercontent.com/yev/seleniumMvnScreenshot/master/docs/ListenerExample.png)
     
