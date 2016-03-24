@@ -3,7 +3,7 @@
 
   <groupId>com.github.yev</groupId>
   <artifactId>screenshot</artifactId>
-  <version>0.3-SNAPSHOT</version>
+  <version>1.0</version>
   <packaging>jar</packaging>
 
   <name>selenium screenshot for testng</name>
@@ -105,6 +105,16 @@
                 </plugin>
             </plugins>
         </pluginManagement>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
     </build>
     <parent>
         <groupId>org.sonatype.oss</groupId>
@@ -127,6 +137,12 @@
           <artifactId>testng</artifactId>
           <version>6.8.1</version>
           <scope>provided</scope>
+      </dependency>
+      <dependency>
+          <groupId>org.mockito</groupId>
+          <artifactId>mockito-all</artifactId>
+          <version>1.10.19</version>
+          <scope>test</scope>
       </dependency>
   </dependencies>
 </project>
