@@ -9,7 +9,7 @@ Allow your **Selenium** suites to store automatically **screenshots** taken for 
     <dependency>
       <groupId>com.github.yev</groupId>
       <artifactId>screenshot</artifactId>
-      <version>0.2</version>
+      <version>1.0</version>
     </dependency>
     ```
     
