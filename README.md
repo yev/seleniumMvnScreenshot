@@ -2,7 +2,7 @@
 Allow your **Selenium** suites to store automatically **screenshots** taken for every **failed** test in **maven** target folder for further usage. For example, you can include the screenshot of a failed test in email sent by your CI-build.
 
 ##Configuration
-1. Any configuration at all - just put this jar to your classpath and annotate your class with special annotation (see below).
+1. No configuration at all - just put this jar to your classpath and annotate your class with special annotation ([see below](#annotation)).
 2. No third-party dependencies.
 
 ## Pre-requirements
@@ -21,7 +21,7 @@ Allow your **Selenium** suites to store automatically **screenshots** taken for 
     </dependency>
     ```
     
-2. Add this annotation ```@org.testng.annotations.Listeners(org.yev.selenium.testng.FailTestScreenshotListener.class)``` to your TestNG Selenium class:
+2. <a name="annotation"></a>Add this annotation ```@org.testng.annotations.Listeners(org.yev.selenium.testng.FailTestScreenshotListener.class)``` to your TestNG Selenium class:
 
     ![listener example](https://raw.githubusercontent.com/yev/seleniumMvnScreenshot/master/docs/ListenerExample.png)
     
