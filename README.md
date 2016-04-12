@@ -1,6 +1,14 @@
 # Selenium auto screenshots for failed TestNg 
 Allow your **Selenium** suites to store automatically **screenshots** taken for every **failed** test in **maven** target folder for further usage. For example, you can include the screenshot of a failed test in email sent by your CI-build.
 
+##Configuration
+1. Any configuration at all - just put this jar to your classpath and annotate your class with special annotation (see below).
+2. No third-party dependencies.
+
+## Pre-requirements
+1. JDK 1.7 minimum
+
+
 ## Usage
 
 1. Add the following maven dependency in you ```pom.xml``` file:
@@ -9,7 +17,7 @@ Allow your **Selenium** suites to store automatically **screenshots** taken for 
     <dependency>
       <groupId>com.github.yev</groupId>
       <artifactId>screenshot</artifactId>
-      <version>1.0</version>
+      <version>1.1</version>
     </dependency>
     ```
     
