@@ -3,7 +3,7 @@
 
   <groupId>com.github.yev</groupId>
   <artifactId>screenshot</artifactId>
-  <version>1.1</version>
+  <version>1.2-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>selenium screenshot for testng</name>
@@ -29,7 +29,7 @@
         <connection>scm:git:git@github.com:yeb/seleniumMvnScreenshot.git</connection>
         <developerConnection>scm:git:git@github.com:yev/seleniumMvnScreenshot.git</developerConnection>
         <url>git@github.com:yev/seleniumMvnScreenshot.git</url>
-      <tag>screenshot-1.1</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <distributionManagement>
