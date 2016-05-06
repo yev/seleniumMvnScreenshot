@@ -1,8 +1,8 @@
 
-# Welcome to the repository for Selenium auto screenshots for failed TestNg tests framework
+# Welcome to the repository for Selenium auto screenshots for failed TestNg tests
 -----------
 
-This is an open source framework implementing TestNG and Selenium 2 , giving you a possibilty to  automatically store **screenshots**, taken for every **failed** test in **maven** target folder, for their further investigation.
+This is an open source framework integrating TestNG, Selenium 2 and maven, giving you a possibilty to  automatically store **screenshots**, taken for every **failed** test in **maven** target folder, for their further investigation.
 
 
 It features: 
@@ -49,7 +49,7 @@ Getting started
 
     ![listener example](https://raw.githubusercontent.com/yev/seleniumMvnScreenshot/master/docs/ListenerExample.png)
     
- 3. 	Subsequently the plugin will find by reflection the WebDriver instance you are using and will do the rest for you.
+ 3. 	Subsequently the plugin will find by reflection the **WebDriver instance** you are using and will do the rest for you.
 
 ### Result
 --
