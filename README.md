@@ -20,17 +20,6 @@ Getting started
 1. Put this jar to your classpath and annotate your class with special annotation ([see below](#annotation)).
 2. No third-party dependencies.
 
-### Development Prerequisites
---
-1. JDK 1.7 +
-2. Eclipse
-3. IntelliJ IDEA
-4. Apache Maven 3.0 +
-5. JUnit 4.10 +
-6. TestNG 6.0 +
-6. Selenium 2.0 +
-7. Jenkins
-
 ### How to use
 --
  1. Adding the following maven dependency in you ```pom.xml``` file:
