@@ -57,3 +57,5 @@ For our example case the jenkins config will be following:
 
 ![jenkins conf example](https://raw.githubusercontent.com/yev/seleniumMvnScreenshot/master/docs/selenium_Config_Jenkins_.png)
 
+[![Maven Package](https://github.com/yev/seleniumMvnScreenshot/actions/workflows/maven-publish.yml/badge.svg)](https://github.com/yev/seleniumMvnScreenshot/actions/workflows/maven-publish.yml)
+
