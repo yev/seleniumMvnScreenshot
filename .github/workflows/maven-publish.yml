@@ -30,6 +30,8 @@ jobs:
       run: mvn test
       
     - name: SonarCloud Scan
+      env:
+        SONAR_TOKEN: d5884a198e3876dc45cbf771a58aed8e1edb21f2
       uses: SonarSource/sonarcloud-github-action@v1.6
       with:
         # Additional arguments to the sonarcloud scanner
