@@ -37,6 +37,7 @@ Getting started
  2. <a name="annotation"></a> Adding next annotation: ```@org.testng.annotations.Listeners(org.yev.selenium.testng.FailTestScreenshotListener.class)``` to your TestNG Selenium class:
 
 
+
     ![listener example](https://raw.githubusercontent.com/yev/seleniumMvnScreenshot/master/docs/ListenerExample.png)
     
  3. 	Subsequently the plugin will find by reflection the **WebDriver instance** you are using and will do the rest for you.
